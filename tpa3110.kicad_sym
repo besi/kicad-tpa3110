@@ -118,7 +118,7 @@
 			(pin input line
 				(at -11.43 8.89 0)
 				(length 7.62)
-				(name "+"
+				(name "R+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -136,7 +136,7 @@
 			(pin input line
 				(at -11.43 -3.81 0)
 				(length 7.62)
-				(name "+"
+				(name "L+"
 					(effects
 						(font
 							(size 1.27 1.27)
