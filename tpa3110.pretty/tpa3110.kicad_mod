@@ -76,7 +76,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "6d7bfd5e-5fbd-46da-88f6-239696c87041")
 	)
 	(fp_line
@@ -86,7 +86,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "4cf182c3-5343-4bdd-abf9-182696e9970b")
 	)
 	(fp_line
@@ -96,7 +96,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "c228d02b-3bfd-47b4-b09f-38bc0c25a276")
 	)
 	(fp_line
@@ -106,7 +106,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "82752e14-3b40-4cd7-9f82-264a0a062ddd")
 	)
 	(fp_circle
