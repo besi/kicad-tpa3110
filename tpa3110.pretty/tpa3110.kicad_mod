@@ -16,11 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "tpa3110"
-		(at -22.225 -15.875 0)
+	(property "Value" "TPA3110"
+		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
+		(layer "F.SilkS")
 		(uuid "77b3ff50-6267-4406-8606-7f8f3cae99ce")
 		(effects
 			(font
@@ -197,6 +196,136 @@
 		(layer "Edge.Cuts")
 		(uuid "426515db-5c27-4687-9bb5-b59dfaa06714")
 	)
+	(fp_text user "R-"
+		(at -14.25 17.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0b0047b3-e6c9-4271-8de4-d8f977d4f615")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "8-26V 3A"
+		(at -13.75 -13.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3b373707-4bb6-42f2-bb0f-72cc4b633e7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "R"
+		(at 6.75 -16.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "579983a9-c1c5-4791-8a89-8d0c472ec4ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "R+"
+		(at -6.5 17.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "601401d0-3055-4629-8973-cc66f39105cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at -7.25 -15.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7152f761-4d1d-45e1-a0ce-e00455959de4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "L+"
+		(at 13.25 17.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9ecf4a96-bcac-444b-a980-14601c69ccdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 9.25 -16.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ba6a96c8-33b0-4514-a4dd-f09435694c80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "L-"
+		(at 5.5 17.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bcc2de57-50ef-4bab-aa7c-5744164b5af2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VCC"
+		(at -15.25 -15.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f04783a6-60c8-46bc-b11a-80d780f39887")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "L"
+		(at 11.75 -16.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ffa2b7b4-1fc2-4fac-ba1c-531899331870")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "1" thru_hole oval
 		(at 7.4405 -19.652 90)
 		(size 2.5 1.524)
@@ -271,7 +400,7 @@
 	)
 	(model "${KIPRJMOD}/lib/tpa3110/tpa3110.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 1.5)
 		)
 		(scale
 			(xyz 1 1 1)
